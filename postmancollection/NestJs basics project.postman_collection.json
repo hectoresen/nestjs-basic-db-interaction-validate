@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "de97bae9-d260-495d-a6d4-caaaf2d65517",
+		"name": "NestJs basics project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18510656"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/items",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Curso de nestjs\",\r\n    \"price\": 11,\r\n    \"description\": \"Un cursillo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
